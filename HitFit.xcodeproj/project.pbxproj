@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0559372B3B56A900DA135D /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0559362B3B56A900DA135D /* HistoryStore.swift */; };
+		8D0559392B3B57B000DA135D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0559382B3B57B000DA135D /* Exercise.swift */; };
+		8D05593B2B3B57BF00DA135D /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05593A2B3B57BF00DA135D /* DateExtension.swift */; };
+		8D05593D2B3B57C900DA135D /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05593C2B3B57C900DA135D /* ImageExtensions.swift */; };
+		8D05593F2B3B586900DA135D /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05593E2B3B586900DA135D /* HistoryStoreDevData.swift */; };
+		8D0559442B3B589800DA135D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0559402B3B589800DA135D /* TimerView.swift */; };
+		8D0559452B3B589800DA135D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0559412B3B589800DA135D /* RatingView.swift */; };
+		8D0559462B3B589800DA135D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0559422B3B589800DA135D /* HeaderView.swift */; };
+		8D0559472B3B589800DA135D /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0559432B3B589800DA135D /* CheckMark.swift */; };
 		8DB312C32A3B526D005536BF /* SwiftUI_Apprentice_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312C22A3B526D005536BF /* SwiftUI_Apprentice_2023App.swift */; };
 		8DB312C52A3B526D005536BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312C42A3B526D005536BF /* ContentView.swift */; };
 		8DB312C72A3B526F005536BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB312C62A3B526F005536BF /* Assets.xcassets */; };
 		8DB312CA2A3B526F005536BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB312C92A3B526F005536BF /* Preview Assets.xcassets */; };
+		8DB312D12A3B52F6005536BF /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312D02A3B52F6005536BF /* WelcomeView.swift */; };
+		8DB312D32A3B530F005536BF /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312D22A3B530F005536BF /* ExerciseView.swift */; };
+		8DB312D52A3B531D005536BF /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312D42A3B531D005536BF /* HistoryView.swift */; };
+		8DB312D72A3B5329005536BF /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312D62A3B5329005536BF /* SuccessView.swift */; };
+		8DB312DA2A3B6612005536BF /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312D92A3B6612005536BF /* ExerciseDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D0559362B3B56A900DA135D /* HistoryStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryStore.swift; path = "SwiftUI-Apprentice-2023/Models/HistoryStore.swift"; sourceTree = SOURCE_ROOT; };
+		8D0559382B3B57B000DA135D /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = Models/Exercise.swift; sourceTree = "<group>"; };
+		8D05593A2B3B57BF00DA135D /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = Extensions/DateExtension.swift; sourceTree = "<group>"; };
+		8D05593C2B3B57C900DA135D /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExtensions.swift; path = Extensions/ImageExtensions.swift; sourceTree = "<group>"; };
+		8D05593E2B3B586900DA135D /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
+		8D0559402B3B589800DA135D /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		8D0559412B3B589800DA135D /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		8D0559422B3B589800DA135D /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8D0559432B3B589800DA135D /* CheckMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
 		8DB312BF2A3B526D005536BF /* SwiftUI-Apprentice-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Apprentice-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB312C22A3B526D005536BF /* SwiftUI_Apprentice_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Apprentice_2023App.swift; sourceTree = "<group>"; };
 		8DB312C42A3B526D005536BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DB312C62A3B526F005536BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB312C92A3B526F005536BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DB312D02A3B52F6005536BF /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8DB312D22A3B530F005536BF /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		8DB312D42A3B531D005536BF /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8DB312D62A3B5329005536BF /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		8DB312D92A3B6612005536BF /* ExerciseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +79,11 @@
 		8DB312C12A3B526D005536BF /* SwiftUI-Apprentice-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				8D05593A2B3B57BF00DA135D /* DateExtension.swift */,
+				8D05593C2B3B57C900DA135D /* ImageExtensions.swift */,
 				8DB312C22A3B526D005536BF /* SwiftUI_Apprentice_2023App.swift */,
-				8DB312C42A3B526D005536BF /* ContentView.swift */,
+				8D0559382B3B57B000DA135D /* Exercise.swift */,
+				8DB312D82A3B5338005536BF /* Views */,
 				8DB312C62A3B526F005536BF /* Assets.xcassets */,
 				8DB312C82A3B526F005536BF /* Preview Content */,
 			);
@@ -62,9 +93,28 @@
 		8DB312C82A3B526F005536BF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				8D05593E2B3B586900DA135D /* HistoryStoreDevData.swift */,
 				8DB312C92A3B526F005536BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DB312D82A3B5338005536BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D0559362B3B56A900DA135D /* HistoryStore.swift */,
+				8D0559432B3B589800DA135D /* CheckMark.swift */,
+				8D0559422B3B589800DA135D /* HeaderView.swift */,
+				8D0559412B3B589800DA135D /* RatingView.swift */,
+				8D0559402B3B589800DA135D /* TimerView.swift */,
+				8DB312C42A3B526D005536BF /* ContentView.swift */,
+				8DB312D02A3B52F6005536BF /* WelcomeView.swift */,
+				8DB312D22A3B530F005536BF /* ExerciseView.swift */,
+				8DB312D92A3B6612005536BF /* ExerciseDetail.swift */,
+				8DB312D42A3B531D005536BF /* HistoryView.swift */,
+				8DB312D62A3B5329005536BF /* SuccessView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8DB312BA2A3B526D005536BF /* Build configuration list for PBXProject "SwiftUI-Apprentice-2023" */;
+			buildConfigurationList = 8DB312BA2A3B526D005536BF /* Build configuration list for PBXProject "HitFit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,8 +187,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D05593F2B3B586900DA135D /* HistoryStoreDevData.swift in Sources */,
+				8DB312D32A3B530F005536BF /* ExerciseView.swift in Sources */,
+				8D05593B2B3B57BF00DA135D /* DateExtension.swift in Sources */,
+				8D0559472B3B589800DA135D /* CheckMark.swift in Sources */,
+				8D05593D2B3B57C900DA135D /* ImageExtensions.swift in Sources */,
+				8DB312DA2A3B6612005536BF /* ExerciseDetail.swift in Sources */,
+				8D0559442B3B589800DA135D /* TimerView.swift in Sources */,
 				8DB312C52A3B526D005536BF /* ContentView.swift in Sources */,
+				8DB312D52A3B531D005536BF /* HistoryView.swift in Sources */,
+				8D0559372B3B56A900DA135D /* HistoryStore.swift in Sources */,
+				8DB312D12A3B52F6005536BF /* WelcomeView.swift in Sources */,
+				8D0559462B3B589800DA135D /* HeaderView.swift in Sources */,
+				8DB312D72A3B5329005536BF /* SuccessView.swift in Sources */,
 				8DB312C32A3B526D005536BF /* SwiftUI_Apprentice_2023App.swift in Sources */,
+				8D0559392B3B57B000DA135D /* Exercise.swift in Sources */,
+				8D0559452B3B589800DA135D /* RatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DB312BA2A3B526D005536BF /* Build configuration list for PBXProject "SwiftUI-Apprentice-2023" */ = {
+		8DB312BA2A3B526D005536BF /* Build configuration list for PBXProject "HitFit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DB312CB2A3B526F005536BF /* Debug */,
